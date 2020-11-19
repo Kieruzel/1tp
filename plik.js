@@ -263,13 +263,96 @@ if(warunek)
 	
 }
 
-*/
 let a,b,c;
 
 if((a>0 && a<=20)&&(a>b) && (b>10 || c==0))
 {
 	
 }
+*/
+
+
+/*
+switch(zmienna)
+{
+	case wartość:
+		instrukcje;
+		break;
+	case wartość:
+		instrukcje;
+		braek;
+		.
+		.
+		.
+}
+
+
+
+let zmienna = 1;
+
+switch(zmienna)
+{
+	case 1:
+		document.write("jeden");
+		break;
+	case 2:
+		document.write("dwa");
+		break;
+	case 3:
+		document.write("trzy");
+		break;
+	default:
+		document.write("Poza zakresem");	
+}
+
+
+*/
+
+/* Zadanie, Użytkownik podaje numer dnia tygodnia gdzie 1 to poniedziałek a 7 to niedzila
+Napisz skrypt który napisze dzień tygodnia słownie. Użyj instrukcji switch case
+*/
+
+
+
+/*
+Zadanie. Napisz skrypt który obilcz miejsca zerowe fuknkcji kwadragtowej o postaci ax^2+bx+c=0
+policz delta = b^2-4*a*c
+Jeżeli delta jest mnijesza od zera to brak rozwiazań
+jeżeli delta jest równa zero to mamy jedno rozwiązanie x=wzór na tablicy
+jeżeli delta jest więszka od zera to mamy dwa rozwiązania 
+x1 = 
+x2 = 
+pierwiastek w JS Math.sqrt(liczba)
+
+
+
+let a,b,c;
+a=parseFloat(prompt("Podaj wspolczynnik a"));
+b=parseFloat(prompt("Podaj wspolczynnik b"));
+c=parseFloat(prompt("Podaj wspolczynnik c"));
+
+let delta = b*b-4*a*c;
+
+if(delta>0)
+{
+	let x1 = (-b-Math.sqrt(delta))/(2*a);
+	let x2= (-b+Math.sqrt(delta))/(2*a);
+	
+	document.write("miejsca zerowe fuknkcji to x1:"+x1+" x2:"+x2);
+	
+}else if(delta==0)
+{
+	let x = -b/(2*a);
+	document.write("miejsca zerowe fuknkcji to x:"+x);
+}else
+{
+	document.write("Brak miejsc zerowych");
+	
+}
+*/
+
+// Wczytaj 3 liczby i wypisz je w kolejności od najmnijeszej do największej
+
 
 
 
