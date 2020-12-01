@@ -354,6 +354,46 @@ if(delta>0)
 // Wczytaj 3 liczby i wypisz je w kolejności od najmnijeszej do największej
 
 
+// petle 
+
+/*
+for
+while
+do..while
+
+*/
+
+/*
+for(wartość_początkowa; warunek_działania_pętli;operacja_artmetyczna)
+*/
+
+//zadanie wypisz 100 razy słowo "jestem programista"
+/*
+for(let i=1;i<=100;i++)
+{
+	
+document.write("Jestem programista </br>");
+}
+*/
+
+// Zadanie:  wypisz liczby od 0 do 10 za pomocą pętli for
+
+for(let i=0;i<=10;i++)
+{
+	document.write(i+"</br>");
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
