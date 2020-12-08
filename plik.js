@@ -377,14 +377,70 @@ document.write("Jestem programista </br>");
 */
 
 // Zadanie:  wypisz liczby od 0 do 10 za pomocą pętli for
-
+/*
 for(let i=0;i<=10;i++)
 {
 	document.write(i+"</br>");
-	
+}
+*/
+// zadanie wyświetl liczby parzyste od 10 do 100
+/*
+for(let i=10;i<=100;i++)
+{
+	if(i%2==0)
+	{
+		document.write(i+"</br>");
+	}
+}
+*/
+//i+=2  i=i+2
+/*
+for(let i=10;i<=100;i+=2)
+{
+	document.write(i);
+}
+*/
+
+
+// Pobierz od użytkownika dwie liczby a oraz b
+// wyświetl przedział liczb całkowitych od a do b
+
+/*
+
+let a = prompt("Podaj liczbe a"); // 1
+let b = prompt("podaj liczbe b"); // 10
+
+for(a;a<=b;a++)
+{
+	document.write(a + "</br>");
 }
 
+*/
 
+// zadanie: policz sumę licz całkowitych od 3 do 30 
+/*
+let suma=0;
+
+for(let i=3;i<=30;i++)
+{
+	suma = suma+i;
+}
+document.write(suma);
+*/
+/*
+s=0 i=3;
+s=0+3=3	-> i=4
+s=3+4=7 -> i=5
+s=7+5=12
+...
+...
+...
+
+
+
+*/
+// zadanie. Policz sumę liczb całkoitych parzystych z przedziału a-b
+// gdzie a i b podaje użytkownik
 
 
 
