@@ -441,11 +441,24 @@ s=7+5=12
 */
 // zadanie. Policz sumę liczb całkoitych parzystych z przedziału a-b
 // gdzie a i b podaje użytkownik
+/*
+let a = parseInt(prompt("liczba a"));
+let b = parseInt(prompt("liczba b"));
+let suma = 0; 
+for(let i=a;i<=b;i++)
+{
+	if(i%2==0)
+	{
+		suma +=i;
+	}
+}
+document.write(suma);
+*/
 
 
-
-
-
+let a = parseInt(prompt("liczba a"));
+let b = parseInt(prompt("liczba b"));
+let wynik = 1;
 
 
 
