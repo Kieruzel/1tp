@@ -781,5 +781,30 @@ for(let k=0;k<tab.length;k++)
 */
 
 
+// STRING 
+
+
+let zmienna = "Ala ma kota";
+
+// właściwość length cyli długość
+
+document.write(zmienna.length+"hh");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
