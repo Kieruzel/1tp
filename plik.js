@@ -455,14 +455,330 @@ for(let i=a;i<=b;i++)
 document.write(suma);
 */
 
-
+/*
 let a = parseInt(prompt("liczba a"));
 let b = parseInt(prompt("liczba b"));
 let wynik = 1;
 
+*/
+
+/*
+pętla while , działa dokóki waruek jest prawidzwy 
+
+while(warunek)
+{
+	instrukcje
+	pętli
+}
+
+*/
+
+// liczby od 1 do 10 za pocmoa petli while
+/*
+let i=1;
+
+while(i<=10)
+{
+	document.write(i+"</br>");
+}
+
+
+let a=0;
+
+while(a!=10)
+{
+	a=prompt("Podaj liczbe");
+	document.write(a+"</br>");
+}
+*/
 
 
 
+// napisz program który pobierze od uzytkownika liczbe
+// jeżeli liczba jesy taka sama jak losowa to uzytkownik wygral
+// program dziala dopoki yżytkownik nie trafi liczby losowej
+// program zlicza próby 
+// program podpowiada czy liczba losowa jest wieksza czy zmniejsza
+
+//let losowa=Math.floor(Math.random() * (10 - 1)) + 1;
+/*
+while()
+{
+	let a=parseInt(prompt("Podaj liczbe"));
+	
+}
+*/
+
+
+/*
+pętla do..while
+
+do
+{
+	
+	
+	
+}while(warunek)
+	
+PETLA DO..WHILE WYKONA SIĘ NAPEWNO 1 RAZ
+
+
+
+let a=1;
+
+do
+{
+	document.write(a+"<br>");
+	a++;
+	
+}while(a<=10)
+
+
+
+
+do{
+	a = prompt("2-koniec");
+	
+	document.write("Seba");
+	
+}while(a!=2)
+	
+document.write("koniec");
+*/
+// wykorzystaj pętle do..while
+// napisz program który pobierze od uzytkownika liczbe
+// jeżeli liczba jesy taka sama jak losowa to uzytkownik wygral
+// program dziala dopoki yżytkownik nie trafi liczby losowej
+// program zlicza próby 
+// program podpowiada czy liczba losowa jest wieksza czy zmniejsza
+// let losowa=Math.floor(Math.random() * (10 - 1)) + 1;
+
+// tablice
+/*
+let a=3;
+let b=5;
+let c=7;
+let d=6;
+let r=4;
+
+let tab = [3,5,7,6,4];
+
+let tab2= ["seb","kiero","ss","gg"];
+
+let tab3=[3,"seba",4,5.5];
+
+let tab3 = [a,b,c,d,r];
+
+
+// 2 sposób 
+
+let tab4 = new Array(3,4,5,6);
+
+
+*/
+
+
+
+//let tab = [2,3,1,4,5,3,4,2,11,34,5];
+
+//document.write(tab.length);
+
+/*
+
+	for(let i=0;i<tab.length;i++){
+		document.write(tab[i]);
+		document.write("<br>");
+		
+	}
+*/
+
+//zadanie: zwiększ każdy element tablicy tab o 2;
+/*
+	for(let i=0;i<tab.length;i++)
+	{
+		tab[i]=tab[i]+2;
+		document.write(tab[i]);
+		document.write("<br>");
+	}
+*/
+
+
+// zadanie: najdź największy element tablicy;
+
+//let tab=[2,3,11,23,4,3,2,18,79,88,100,22];
+
+
+/*let max = tab[0];
+
+	for(let i=0;i<tab.length;i++)
+	{
+		if(tab[i]>max)
+		{
+			max=tab[i];
+		}
+		
+	}
+	*/
+//document.write("najwieszka wartosc tablicy to: "+max);	
+
+// znajdz najmniejszą wartość tablicy tab 
+
+// podaj ile jest liczb parzystych w tablicy 
+
+
+
+/*
+let ile_tab=Math.floor(Math.random() * (20 - 5)) + 5;
+let tab=[];
+for(let i=0;i<=ile_tab;i++)
+{
+	tab[i]=Math.floor(Math.random() * (100 - 0)) + 0;
+}
+
+// wypisz sumę wszytskich elementów tablicy tab
+
+
+let suma=0;
+
+for(let j=0; j<tab.length;j++)
+{
+	suma=suma+tab[j];
+}
+
+document.write(suma+"</br>");
+document.write(tab);
+
+*/
+
+// metody do pracy z tablcami
+
+// push - dodaje do końca tablicy elementy
+
+//let tab=[1,2,3,6,2,11,7,8,9];
+
+//tab.push(5,4,5,7,3,11);
+//tab[tab.length]=5;
+//document.write(tab[tab.length-1]);
+
+// metoda pop() -> zabiera/kasuje ostatni element tablicy;
+
+/*
+tab.pop();
+document.write(tab[tab.length-1])
+*/
+
+// metoda unshift()-wstawia elemnty na początku tablicy
+
+//tab.unshift("ala","kot",100);
+
+//document.write(tab[2]);
+
+//metoda shift()-> usuwa element z początku tablicy
+
+//tab.shift();
+//document.write(tab[0]);
+
+/*
+let tab=[1,2,3];
+let ob ={ imie: "seba"};
+let a="seba";
+
+
+//isArray()-> sprawdza czy tablica jest tablicą
+
+if(Array.isArray(a)){
+	document.write("to jest tablica");
+	
+}else{
+	document.write("to nie jest tablica");
+}
+*/
+
+// metody zamiany tekstu na tablice i tablicy na tekst
+
+// join()->zamiana tablicy na tekst z separatorem
+/*
+let tab=[2,3,4,5];
+
+let tekst = tab.join("-->");
+document.write(tekst);
+
+*/
+
+//zamiana tekstu na tablice metoda split()
+/*
+let tekst = "1 2 3 4 5";
+
+let tab = tekst.split(" ");
+
+document.write(tab[3]);
+
+let tekst2="Pies-Kot-Kura";
+
+let tab2 = tekst2.split("-");
+document.write(tab2[2]);
+
+
+
+// metoda reverse
+
+let tab=[2,3,4,5,6];
+tab.reverse();
+
+//document.write(tab[0]);
+
+// metoda indexOf - wyszukuje elementy tablicy;
+
+let tab2=["seba","franio","ania"];
+
+//document.write(tab2.indexOf("ania2"));
+let slowo = prompt("podaj slowo");
+
+if(tab2.indexOf(slowo)!=-1)
+{
+	document.write("insteje")
+}else
+{
+	document.write("nie istenieje");
+}
+	
+*/
+
+
+//let tab=[2,1,3,4,5,1];
+
+// tab wielowymiarowe
+
+/*
+let numeric = [
+    ['input1','input2'],
+    ['input3','input4']
+];
+
+document.write(numeric[0][0]);
+numeric[0][0]=5;
+document.write(numeric[0][0]);
+
+let tab=[];
+for(let i=0;i<8;i++)
+{
+	 tab[i]=[];
+	for(let j=0;j<5;j++)
+	{
+		tab[i][j]=i;
+	}
+	
+}
+for(let k=0;k<tab.length;k++)
+{
+	for(let h=0;h<tab[k].length;h++)
+	{
+		document.write(tab[k][h]);
+	}
+	document.write("</br>");
+	
+}
+*/
 
 
 
